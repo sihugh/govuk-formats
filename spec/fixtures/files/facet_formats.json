@@ -1,0 +1,32 @@
+{
+  "facets": {
+    "content_store_document_type": {
+      "options": [
+        {
+          "value": {
+            "slug": "publication"
+          },
+          "documents": 118635
+        },
+        {
+          "value": {
+            "slug": "hmrc_manual_section"
+          },
+          "documents": 78332
+        },
+        {
+          "value": {
+            "slug": "news_article"
+          },
+          "documents": 76239
+        },
+        {
+          "value": {
+            "slug": "employment_tribunal_decision"
+          },
+          "documents": 39805
+        }
+      ]
+    }
+  }
+}

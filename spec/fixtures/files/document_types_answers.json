@@ -1,0 +1,822 @@
+{
+  "results": [
+    {
+      "title": "How big is a horse",
+      "link": "/how-big-is-a-horse",
+      "index": "govuk",
+      "es_score": null,
+      "_id": "/how-big-is-a-horse",
+      "elasticsearch_type": "edition",
+      "document_type": "edition"
+    },
+    {
+      "title": "Is NASA real",
+      "link": "/is-nasa-real",
+      "index": "govuk",
+      "es_score": null,
+      "_id": "/is-nasa-real",
+      "elasticsearch_type": "edition",
+      "document_type": "edition"
+    }
+  ],
+  "facets": {
+    "organisations": {
+      "options": [
+        {
+          "value": {
+            "organisation_type": "executive_agency",
+            "organisation_state": "live",
+            "acronym": "DVLA",
+            "content_id": "70580624-93b5-4aed-823b-76042486c769",
+            "parent_organisations": [
+              "department-for-transport"
+            ],
+            "link": "/government/organisations/driver-and-vehicle-licensing-agency",
+            "title": "Driver and Vehicle Licensing Agency",
+            "analytics_identifier": "EA74",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-transport",
+            "logo_formatted_title": "Driver & Vehicle\r\nLicensing\r\nAgency",
+            "public_timestamp": "2019-02-19T16:47:33.000+00:00",
+            "slug": "driver-and-vehicle-licensing-agency"
+          },
+          "documents": 198
+        },
+        {
+          "value": {
+            "organisation_type": "non_ministerial_department",
+            "organisation_state": "live",
+            "acronym": "HMRC",
+            "content_id": "6667cce2-e809-4e21-ae09-cb0bdc1ddda3",
+            "link": "/government/organisations/hm-revenue-customs",
+            "superseded_organisations": [
+              "department-of-inland-revenue"
+            ],
+            "title": "HM Revenue & Customs",
+            "analytics_identifier": "D25",
+            "organisation_crest": "hmrc",
+            "organisation_brand": "hm-revenue-customs",
+            "child_organisations": [
+              "valuation-office-agency",
+              "the-adjudicator-s-office"
+            ],
+            "logo_formatted_title": "HM Revenue\r\n& Customs",
+            "public_timestamp": "2019-01-21T10:27:25.000+00:00",
+            "slug": "hm-revenue-customs"
+          },
+          "documents": 125
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "DWP",
+            "content_id": "b548a09f-8b35-4104-89f4-f1a40bf3136d",
+            "link": "/government/organisations/department-for-work-pensions",
+            "superseded_organisations": [
+              "department-of-social-security",
+              "pension-service",
+              "pension-disability-and-carers-service",
+              "disability-and-carers-service"
+            ],
+            "title": "Department for Work and Pensions",
+            "analytics_identifier": "D10",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-work-pensions",
+            "child_organisations": [
+              "equality-2025",
+              "industrial-injuries-advisory-council",
+              "social-security-advisory-committee",
+              "health-and-safety-executive",
+              "the-pensions-advisory-service",
+              "the-pensions-regulator",
+              "pension-protection-fund-ombudsman",
+              "pensions-ombudsman",
+              "national-employment-savings-trust",
+              "remploy-ltd",
+              "pension-protection-fund",
+              "independent-living-fund",
+              "independent-case-examiner",
+              "office-for-nuclear-regulation",
+              "office-for-disability-issues",
+              "social-mobility-and-child-poverty-commission",
+              "disabled-peoples-employment-corporation",
+              "bpdts-ltd",
+              "remploy-pension-scheme-trustees-ltd",
+              "single-financial-guidance-body"
+            ],
+            "logo_formatted_title": "Department\r\nfor Work & \r\nPensions",
+            "public_timestamp": "2019-03-28T07:43:10.000+00:00",
+            "slug": "department-for-work-pensions"
+          },
+          "documents": 76
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "BEIS",
+            "content_id": "2bde479a-97f2-42b5-986a-287a623c2a1c",
+            "link": "/government/organisations/department-for-business-energy-and-industrial-strategy",
+            "superseded_organisations": [
+              "department-of-energy-climate-change",
+              "department-for-business-innovation-skills"
+            ],
+            "title": "Department for Business, Energy & Industrial Strategy",
+            "analytics_identifier": "D1198",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-business-innovation-skills",
+            "child_organisations": [
+              "nuclear-decommissioning-authority",
+              "office-for-life-sciences",
+              "office-for-low-emission-vehicles",
+              "government-chemist",
+              "ordnance-survey",
+              "land-registry",
+              "competition-and-markets-authority",
+              "companies-house",
+              "met-office",
+              "acas",
+              "british-hallmarking-council",
+              "intellectual-property-office",
+              "uk-space-agency",
+              "insolvency-service",
+              "competition-service",
+              "uk-atomic-energy-authority",
+              "council-for-science-and-technology",
+              "industrial-development-advisory-board",
+              "land-registration-rule-committee",
+              "low-pay-commission",
+              "regulatory-policy-committee",
+              "central-arbitration-committee",
+              "competition-appeal-tribunal",
+              "copyright-tribunal",
+              "insolvency-practitioners-tribunal",
+              "british-business-bank",
+              "certification-officer",
+              "independent-complaints-reviewer",
+              "office-of-manpower-economics",
+              "office-of-the-regulator-of-community-interest-companies",
+              "uk-green-investment-bank",
+              "government-office-for-science",
+              "groceries-code-adjudicator",
+              "civil-nuclear-police-authority",
+              "the-coal-authority",
+              "nuclear-liabilities-financing-assurance-board",
+              "committee-on-climate-change",
+              "committee-on-radioactive-waste-management",
+              "committee-on-fuel-poverty",
+              "oil-and-gas-authority",
+              "uk-research-and-innovation",
+              "centre-for-connected-and-autonomous-vehicles",
+              "small-business-commissioner",
+              "office-for-product-safety-and-standards",
+              "ofgem",
+              "pubs-code-adjudicator",
+              "financial-reporting-council",
+              "offshore-petroleum-regulator-for-environment-and-decommissioning",
+              "shale-commissioner",
+              "employment-agency-standards-inspectorate",
+              "office-for-artificial-intelligence"
+            ],
+            "logo_formatted_title": "Department for\r\nBusiness, Energy\r\n& Industrial Strategy",
+            "public_timestamp": "2018-08-02T16:10:17.000+01:00",
+            "slug": "department-for-business-energy-and-industrial-strategy"
+          },
+          "documents": 61
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "MOJ",
+            "content_id": "dcc907d6-433c-42df-9ffb-d9c68be5dc4d",
+            "link": "/government/organisations/ministry-of-justice",
+            "superseded_organisations": [
+              "department-for-constitutional-affairs",
+              "department-of-constitutional-affairs"
+            ],
+            "title": "Ministry of Justice",
+            "analytics_identifier": "D18",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "ministry-of-justice",
+            "child_organisations": [
+              "national-offender-management-service",
+              "office-of-the-public-guardian",
+              "hm-courts-and-tribunals-service",
+              "civil-justice-council",
+              "law-commission",
+              "the-sentencing-council-for-england-and-wales",
+              "victim-s-advisory-panel",
+              "criminal-injuries-compensation-authority",
+              "judicial-appointments-commission",
+              "legal-services-commission",
+              "parole-board",
+              "youth-justice-board-for-england-and-wales",
+              "criminal-cases-review-commission",
+              "hm-inspectorate-of-prisons",
+              "hm-inspectorate-of-probation",
+              "victims-commissioner",
+              "prisons-and-probation-ombudsman",
+              "official-solicitor-and-public-trustee",
+              "the-legal-ombudsman",
+              "legal-services-board",
+              "judicial-appointments-and-conduct-ombudsman",
+              "administrative-justice-and-tribunals-council",
+              "advisory-committees-on-justices-of-the-peace",
+              "civil-procedure-rules-committee",
+              "family-justice-council",
+              "family-procedure-rule-committee",
+              "independent-advisory-panel-on-deaths-in-custody",
+              "independent-monitoring-boards-of-prisons-immigration-removal-centres-and-short-term-holding-rooms",
+              "prison-services-pay-review-body",
+              "tribunal-procedure-committee",
+              "advisory-panel-on-public-sector-information",
+              "criminal-procedure-rule-committee",
+              "legal-aid-agency",
+              "her-majestys-magistrates-courts-service-inspectorate",
+              "academy-for-justice-commissioning",
+              "jeffrey-review",
+              "children-and-family-court-advisory-and-support-service",
+              "academy-for-social-justice-commissioning",
+              "judicial-office",
+              "insolvency-rules-committee",
+              "her-majestys-prison-and-probation-service",
+              "academy-for-social-justice",
+              "gov-facility-services-limited"
+            ],
+            "logo_formatted_title": "Ministry\r\nof Justice",
+            "public_timestamp": "2020-03-11T09:05:17.000+00:00",
+            "slug": "ministry-of-justice"
+          },
+          "documents": 41
+        },
+        {
+          "value": {
+            "organisation_type": "executive_agency",
+            "organisation_state": "live",
+            "acronym": "HMCTS",
+            "content_id": "6f757605-ab8f-4b62-84e4-99f79cf085c2",
+            "parent_organisations": [
+              "ministry-of-justice"
+            ],
+            "link": "/government/organisations/hm-courts-and-tribunals-service",
+            "superseded_organisations": [
+              "hm-court-service"
+            ],
+            "title": "HM Courts & Tribunals Service",
+            "analytics_identifier": "EA73",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "ministry-of-justice",
+            "child_organisations": [
+              "insolvency-list",
+              "first-tier-tribunal-mental-health",
+              "first-tier-tribunal-general-regulatory-chamber",
+              "first-tier-tribunal-war-pensions-and-armed-forces-compensation",
+              "first-tier-tribunal-asylum-support",
+              "first-tier-tribunal-tax",
+              "gangmasters-licensing-appeals",
+              "first-tier-tribunal-criminal-injuries-compensation",
+              "first-tier-tribunal-care-standards",
+              "employment-tribunal",
+              "employment-appeal-tribunal",
+              "senior-courts-costs-office",
+              "first-tier-tribunal-social-security-and-child-support",
+              "court-of-protection",
+              "reserve-forces-appeal-tribunal",
+              "first-tier-tribunal-property-chamber",
+              "upper-tribunal-tax-and-chancery-chamber",
+              "upper-tribunal-lands-chamber",
+              "upper-tribunal-administrative-appeals-chamber",
+              "first-tier-tribunal-immigration-and-asylum",
+              "upper-tribunal-immigration-and-asylum-chamber",
+              "first-tier-tribunal-special-educational-needs-and-disability",
+              "admiralty-court",
+              "family-division-of-the-high-court",
+              "planning-court",
+              "technology-and-construction-court",
+              "commercial-circuit-court",
+              "commercial-court",
+              "companies-list",
+              "intellectual-property-enterprise-court",
+              "court-of-appeal-civil-division",
+              "northampton-county-court-business-centre",
+              "patents-court",
+              "court-of-appeal-criminal-division",
+              "queens-bench-division-of-the-high-court",
+              "administrative-court",
+              "chancery-division-of-the-high-court",
+              "the-business-and-property-courts",
+              "the-property-trusts-and-probate-list",
+              "the-intellectual-property-list",
+              "the-financial-list",
+              "the-competition-list",
+              "the-business-list",
+              "the-revenue-list"
+            ],
+            "logo_formatted_title": "HM Courts & \r\nTribunals Service",
+            "public_timestamp": "2018-03-19T17:45:22.000+00:00",
+            "slug": "hm-courts-and-tribunals-service"
+          },
+          "documents": 39
+        },
+        {
+          "value": {
+            "organisation_type": "executive_agency",
+            "organisation_state": "live",
+            "acronym": "DVSA",
+            "content_id": "d39237a5-678b-4bb5-a372-eb2cb036933d",
+            "parent_organisations": [
+              "department-for-transport"
+            ],
+            "link": "/government/organisations/driver-and-vehicle-standards-agency",
+            "superseded_organisations": [
+              "vehicle-and-operator-services-agency",
+              "driving-standards-agency"
+            ],
+            "title": "Driver and Vehicle Standards Agency",
+            "analytics_identifier": "EA570",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-transport",
+            "logo_formatted_title": "Driver & Vehicle\r\nStandards\r\nAgency",
+            "public_timestamp": "2020-03-26T21:37:38.000+00:00",
+            "slug": "driver-and-vehicle-standards-agency"
+          },
+          "documents": 38
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "Home Office",
+            "content_id": "06056197-bc69-4147-aa28-070bca132178",
+            "link": "/government/organisations/home-office",
+            "superseded_organisations": [
+              "police-arbitration-tribunal",
+              "police-discipline-appeals-tribunal"
+            ],
+            "title": "Home Office",
+            "analytics_identifier": "D16",
+            "organisation_crest": "ho",
+            "organisation_brand": "home-office",
+            "child_organisations": [
+              "hm-passport-office",
+              "uk-border-agency",
+              "office-of-the-immigration-services-commissioner",
+              "security-industry-authority",
+              "serious-organised-crime-agency",
+              "national-fraud-authority",
+              "advisory-council-on-the-misuse-of-drugs",
+              "police-advisory-board-for-england-and-wales",
+              "technical-advisory-board",
+              "migration-advisory-committee",
+              "national-dna-database-ethics-group",
+              "police-arbitration-tribunal",
+              "police-discipline-appeals-tribunal",
+              "hm-inspectorate-of-constabulary",
+              "the-security-service-mi5",
+              "independent-police-complaint-commission",
+              "office-of-surveillance-commissioners",
+              "police-negotiating-board",
+              "disclosure-and-barring-service",
+              "independent-reviewer-of-terrorism-legislation",
+              "intelligence-services-commissioner",
+              "interception-of-communications-commissioner",
+              "border-force",
+              "animals-in-science-committee",
+              "surveillance-camera-commissioner",
+              "forensic-science-regulator",
+              "uk-visas-and-immigration",
+              "national-crime-agency-remuneration-review-body",
+              "biometrics-commissioner",
+              "gangmasters-licensing-authority",
+              "immigration-enforcement",
+              "national-counter-terrorism-security-office",
+              "investigatory-powers-tribunal",
+              "police-remuneration-review-body",
+              "independent-family-returns-panel",
+              "independent-anti-slavery-commissioner",
+              "chief-fire-and-rescue-adviser-unit",
+              "biometrics-and-forensics-ethics-group",
+              "independent-chief-inspector-of-borders-and-immigration",
+              "gangmasters-and-labour-abuse-authority",
+              "college-of-policing",
+              "hm-inspectorate-of-constabulary-and-fire-rescue-services",
+              "independent-office-for-police-conduct",
+              "commission-for-countering-extremism",
+              "investigatory-powers-commissioners-office",
+              "uk-council-for-internet-safety",
+              "office-for-communications-data-authorisations",
+              "the-adjudicator-s-office"
+            ],
+            "logo_formatted_title": "Home Office",
+            "public_timestamp": "2019-01-21T18:26:07.000+00:00",
+            "slug": "home-office"
+          },
+          "documents": 38
+        },
+        {
+          "value": {
+            "organisation_type": "sub_organisation",
+            "organisation_state": "live",
+            "acronym": "UKVI",
+            "content_id": "04148522-b0c1-4137-b687-5f3c3bdd561a",
+            "parent_organisations": [
+              "home-office"
+            ],
+            "link": "/government/organisations/uk-visas-and-immigration",
+            "superseded_organisations": [
+              "uk-border-agency"
+            ],
+            "title": "UK Visas and Immigration",
+            "analytics_identifier": "OT554",
+            "organisation_crest": "ho",
+            "organisation_brand": "home-office",
+            "logo_formatted_title": "UK Visas and Immigration",
+            "public_timestamp": "2019-02-07T12:57:59.000+00:00",
+            "slug": "uk-visas-and-immigration"
+          },
+          "documents": 36
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "DfE",
+            "content_id": "ebd15ade-73b2-4eaf-b1c3-43034a42eb37",
+            "link": "/government/organisations/department-for-education",
+            "superseded_organisations": [
+              "department-for-children-schools-and-families",
+              "national-college-for-teaching-and-leadership"
+            ],
+            "title": "Department for Education",
+            "analytics_identifier": "D6",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-education",
+            "child_organisations": [
+              "education-funding-agency",
+              "standards-and-testing-agency",
+              "ofqual",
+              "ofsted",
+              "office-of-the-children-s-commissioner",
+              "school-teachers-review-body",
+              "social-mobility-and-child-poverty-commission",
+              "national-college-for-teaching-and-leadership",
+              "national-college-for-school-leadership",
+              "office-of-the-schools-adjudicator",
+              "schools-commissioners-group",
+              "skills-funding-agency",
+              "higher-education-funding-council-for-england",
+              "office-for-fair-access",
+              "student-loans-company",
+              "uk-commission-for-employment-and-skills",
+              "construction-industry-training-board",
+              "engineering-construction-industry-training-board",
+              "social-mobility-commission",
+              "education-and-skills-funding-agency",
+              "institute-for-apprenticeships",
+              "located",
+              "office-for-students",
+              "teaching-regulation-agency",
+              "independent-review-mechanism",
+              "uk-council-for-internet-safety",
+              "further-education-commissioner",
+              "institute-for-apprenticeships-and-technical-education",
+              "child-safeguarding-practice-review-panel",
+              "regional-schools-commissioners",
+              "social-work-england"
+            ],
+            "logo_formatted_title": "Department \r\nfor Education",
+            "public_timestamp": "2018-01-09T10:08:01.000+00:00",
+            "slug": "department-for-education"
+          },
+          "documents": 33
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "MHCLG",
+            "content_id": "2e7868a8-38f5-4ff6-b62f-9a15d1c22d28",
+            "link": "/government/organisations/ministry-of-housing-communities-and-local-government",
+            "superseded_organisations": [
+              "department-of-the-environment-transport-and-the-regions"
+            ],
+            "title": "Ministry of Housing, Communities & Local Government",
+            "analytics_identifier": "D4",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-communities-and-local-government",
+            "child_organisations": [
+              "queen-elizabeth-ii-conference-centre",
+              "building-regulations-advisory-committee",
+              "homes-and-communities-agency",
+              "architects-registration-board",
+              "audit-commission",
+              "housing-ombudsman",
+              "leasehold-advisory-service",
+              "london-thames-gateway-development-corporation",
+              "valuation-tribunal-service-for-england-valuation-tribunal-service",
+              "the-west-northamptonshire-development-corporation",
+              "local-government-ombudsman",
+              "ebbsfleet-development-corporation",
+              "valuation-tribunal-for-england",
+              "uk-holocaust-memorial-foundation",
+              "homes-england",
+              "regulator-of-social-housing",
+              "windrush-commemoration-committee"
+            ],
+            "logo_formatted_title": "Ministry of Housing,\r\nCommunities &\r\nLocal Government",
+            "public_timestamp": "2018-10-02T15:15:19.000+01:00",
+            "slug": "ministry-of-housing-communities-and-local-government"
+          },
+          "documents": 33
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "DfT",
+            "content_id": "4c717efc-f47b-478e-a76d-ce1ae0af1946",
+            "link": "/government/organisations/department-for-transport",
+            "superseded_organisations": [
+              "department-of-the-environment-transport-and-the-regions"
+            ],
+            "title": "Department for Transport",
+            "analytics_identifier": "D9",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-transport",
+            "child_organisations": [
+              "driver-and-vehicle-licensing-agency",
+              "highways-agency",
+              "maritime-and-coastguard-agency",
+              "vehicle-and-operator-services-agency",
+              "vehicle-certification-agency",
+              "disabled-persons-transport-advisory-committee",
+              "air-accidents-investigation-branch",
+              "rail-accident-investigation-branch",
+              "office-of-rail-regulation",
+              "driving-standards-agency",
+              "directly-operated-railways-limited",
+              "high-speed-two-limited",
+              "british-transport-police-authority",
+              "trinity-house",
+              "northern-lighthouse-board",
+              "passenger-focus",
+              "railway-heritage-committee",
+              "brb-residuary-ltd",
+              "trust-ports",
+              "civil-aviation-authority",
+              "marine-accident-investigation-branch",
+              "london-and-continental-railways-ltd",
+              "airports-commission",
+              "traffic-commissioners",
+              "office-for-low-emission-vehicles",
+              "driver-and-vehicle-standards-agency",
+              "office-of-rail-and-road",
+              "transport-focus",
+              "highways-england",
+              "centre-for-connected-and-autonomous-vehicles",
+              "east-west-railway-company",
+              "network-rail",
+              "dft-olr-holdings-limited",
+              "independent-commission-on-civil-aviation-noise",
+              "crossrail-international"
+            ],
+            "logo_formatted_title": "Department\r\nfor Transport",
+            "public_timestamp": "2019-03-19T14:09:52.000+00:00",
+            "slug": "department-for-transport"
+          },
+          "documents": 30
+        },
+        {
+          "value": {
+            "organisation_type": "sub_organisation",
+            "organisation_state": "live",
+            "acronym": "HM Passport Office",
+            "content_id": "3a96a1e0-21e3-4aae-8e84-f90860ed3dbf",
+            "parent_organisations": [
+              "home-office"
+            ],
+            "link": "/government/organisations/hm-passport-office",
+            "superseded_organisations": [
+              "identity-and-passport-service"
+            ],
+            "title": "HM Passport Office",
+            "analytics_identifier": "EA66",
+            "organisation_crest": "ho",
+            "organisation_brand": "home-office",
+            "logo_formatted_title": "HM Passport\r\nOffice",
+            "public_timestamp": "2019-02-14T18:17:03.000+00:00",
+            "slug": "hm-passport-office"
+          },
+          "documents": 17
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "Defra",
+            "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+            "link": "/government/organisations/department-for-environment-food-rural-affairs",
+            "superseded_organisations": [
+              "department-of-the-environment-transport-and-the-regions"
+            ],
+            "title": "Department for Environment, Food & Rural Affairs",
+            "analytics_identifier": "D7",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-environment-food-rural-affairs",
+            "child_organisations": [
+              "animal-health-and-veterinary-laboratories-agency",
+              "centre-for-environment-fisheries-and-aquaculture-science",
+              "the-food-and-environment-research-agency",
+              "rural-payments-agency",
+              "veterinary-medicines-directorate",
+              "marine-management-organisation",
+              "consumer-council-for-water",
+              "environment-agency",
+              "joint-nature-conservation-committee",
+              "natural-england",
+              "agriculture-and-horticulture-development-board",
+              "sea-fish-industry-authority",
+              "advisory-committee-on-releases-to-the-environment",
+              "science-advisory-council",
+              "covent-garden-market-authority",
+              "broads-authority",
+              "dartmoor-national-park-authority",
+              "exmoor-national-park-authority",
+              "lake-district-national-park-authority",
+              "new-forest-national-park-authority",
+              "north-york-moors-national-park",
+              "independent-agricultural-appeals-panel",
+              "agricultural-wages-committee-x13",
+              "plant-varieties-and-seeds-tribunal",
+              "drinking-water-inspectorate",
+              "the-water-services-regulation-authority",
+              "national-forest-company",
+              "advisory-committee-on-pesticides",
+              "agricultural-dwelling-house-advisory-committees-x16",
+              "veterinary-products-committee",
+              "board-of-trustees-of-the-royal-botanic-gardens-kew",
+              "northumberland-national-park-authority",
+              "forestry-commission",
+              "peak-district-national-park",
+              "south-downs-national-park-authority",
+              "yorkshire-dales-national-park-authority",
+              "uk-co-ordinating-body",
+              "rural-development-programme-for-england-network",
+              "animal-and-plant-health-agency",
+              "veterinary-residues-committee"
+            ],
+            "logo_formatted_title": "Department\r\nfor Environment\r\nFood & Rural Affairs",
+            "public_timestamp": "2019-03-22T12:36:33.000+00:00",
+            "slug": "department-for-environment-food-rural-affairs"
+          },
+          "documents": 16
+        },
+        {
+          "value": {
+            "organisation_type": "executive_agency",
+            "organisation_state": "live",
+            "acronym": "Companies House",
+            "content_id": "c36bd301-d0c5-4492-86ad-ee7843b8383b",
+            "parent_organisations": [
+              "department-for-business-energy-and-industrial-strategy"
+            ],
+            "link": "/government/organisations/companies-house",
+            "title": "Companies House ",
+            "analytics_identifier": "EA26",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-business-innovation-skills",
+            "logo_formatted_title": "Companies House ",
+            "public_timestamp": "2019-04-23T11:52:19.000+01:00",
+            "slug": "companies-house"
+          },
+          "documents": 15
+        },
+        {
+          "value": {
+            "organisation_type": "executive_agency",
+            "organisation_state": "live",
+            "acronym": "the Insolvency Service",
+            "content_id": "c8406408-8376-45e0-95b4-7e74cef2c260",
+            "parent_organisations": [
+              "department-for-business-energy-and-industrial-strategy"
+            ],
+            "link": "/government/organisations/insolvency-service",
+            "title": "The Insolvency Service",
+            "analytics_identifier": "EA32",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-business-innovation-skills",
+            "logo_formatted_title": "The Insolvency \r\nService",
+            "public_timestamp": "2019-02-06T09:56:56.000+00:00",
+            "slug": "insolvency-service"
+          },
+          "documents": 14
+        },
+        {
+          "value": {
+            "organisation_type": "executive_ndpb",
+            "organisation_state": "live",
+            "logo_url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/organisation/logo/199/EA_logo_354.jpg",
+            "acronym": "EA",
+            "content_id": "16628142-57b2-4611-bc03-5912785acee3",
+            "parent_organisations": [
+              "department-for-environment-food-rural-affairs"
+            ],
+            "link": "/government/organisations/environment-agency",
+            "title": "Environment Agency",
+            "analytics_identifier": "EA199",
+            "organisation_crest": "custom",
+            "organisation_brand": "department-for-environment-food-rural-affairs",
+            "logo_formatted_title": "Environment Agency",
+            "public_timestamp": "2017-10-05T09:43:12.000+01:00",
+            "slug": "environment-agency"
+          },
+          "documents": 12
+        },
+        {
+          "value": {
+            "organisation_type": "ministerial_department",
+            "organisation_state": "live",
+            "acronym": "FCO",
+            "content_id": "9adfc4ed-9f6c-4976-a6d8-18d34356367c",
+            "link": "/government/organisations/foreign-commonwealth-office",
+            "title": "Foreign & Commonwealth Office",
+            "analytics_identifier": "D13",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "foreign-commonwealth-office",
+            "child_organisations": [
+              "fco-services",
+              "wilton-park",
+              "secret-intelligence-service",
+              "government-communications-headquarters",
+              "british-council",
+              "marshall-aid-commemoration-commission",
+              "westminster-foundation-for-democracy",
+              "great-britain-china-centre",
+              "bbc-world-service",
+              "chevening-foundation",
+              "preventing-sexual-violence-in-conflict-initiative"
+            ],
+            "logo_formatted_title": "Foreign &\r\nCommonwealth \r\nOffice",
+            "public_timestamp": "2018-01-09T10:07:58.000+00:00",
+            "slug": "foreign-commonwealth-office"
+          },
+          "documents": 8
+        },
+        {
+          "value": {
+            "organisation_type": "executive_ndpb",
+            "organisation_state": "exempt",
+            "acronym": "HSE",
+            "content_id": "5416838d-cdd3-4172-94db-caafd966fdf3",
+            "parent_organisations": [
+              "department-for-work-pensions"
+            ],
+            "link": "/government/organisations/health-and-safety-executive",
+            "title": "Health and Safety Executive",
+            "analytics_identifier": "PB207",
+            "organisation_crest": "no-identity",
+            "organisation_brand": "department-for-work-pensions",
+            "logo_formatted_title": "Health and Safety\r\nExecutive",
+            "public_timestamp": "2014-10-15T15:35:48.000+01:00",
+            "slug": "health-and-safety-executive"
+          },
+          "documents": 8
+        },
+        {
+          "value": {
+            "organisation_type": "executive_agency",
+            "organisation_state": "live",
+            "acronym": "IPO",
+            "content_id": "5d6f9583-991f-413d-ae83-be7274e5eae4",
+            "parent_organisations": [
+              "department-for-business-energy-and-industrial-strategy"
+            ],
+            "link": "/government/organisations/intellectual-property-office",
+            "title": "Intellectual Property Office",
+            "analytics_identifier": "EA34",
+            "organisation_crest": "single-identity",
+            "organisation_brand": "department-for-business-innovation-skills",
+            "child_organisations": [
+              "company-names-tribunal"
+            ],
+            "logo_formatted_title": "Intellectual\r\nProperty \r\nOffice",
+            "public_timestamp": "2015-02-17T11:00:13.000+00:00",
+            "slug": "intellectual-property-office"
+          },
+          "documents": 8
+        }
+      ],
+      "documents_with_no_value": 8,
+      "total_options": 81,
+      "missing_options": 61,
+      "scope": "exclude_field_filter"
+    }
+  },
+  "total": 770,
+  "start": 0,
+  "aggregates": {},
+  "suggested_queries": [],
+  "es_cluster": "A"
+}
