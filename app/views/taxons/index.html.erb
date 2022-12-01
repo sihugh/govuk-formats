@@ -1,0 +1,9 @@
+<% content_for :heading do %>
+  Top level taxonomy pages
+<% end %>
+
+<ol>
+  <% topics.each do |topic| %>
+    <li><%= link_to topic[:name], "https://www.gov.uk#{topic[:slug]}" %></li>
+  <% end %>
+</ol>

@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  root to: 'homepage#index'
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get '/document-types', to: 'document_type#index'
+  get '/document-types/:document_type', to: 'document_type#show'
+
+  get '/organisations', to: 'organisations#index'
+  get '/organisations/:slug', to: 'organisations#show'
+
+  get '/taxons', to: 'taxons#index'
+
+  get '/finders', to: redirect('/document-types/finder')
+  get '/step-by-steps', to: redirect('/document-types/step-by-step-nav')
 end

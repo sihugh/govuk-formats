@@ -1,0 +1,17 @@
+<% content_for :heading do %>
+  <%= "Most visited #{document_type}" %>
+<% end %>
+
+<ol>
+  <% results.each do |result| %>
+    <li><%= link_to result[:title], result[:href] %></li>
+  <% end %>
+</ol>
+
+<h2>Publishing organisations</h2>
+
+<ul>
+  <% organisations.each do |org| %>
+    <li><%= link_to org[:title], "/organisations/#{org[:slug]}"%></li>
+  <% end %>
+</ul>

@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>GovukFormats</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>GOV.UK Formats</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application" %>
-  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c" />
 
-  <body>
-    <%= yield %>
-  </body>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon" />
+
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+</head>
+
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header role="banner">
+    <a href="/" class="govuk-header__link govuk-header__link--homepage">
+      Home
+    </a>
+  </header>
+
+  <main id="main-content" role="main" class="container">
+      <h1><%= yield :heading %></h1>
+      <%= yield %>
+  </main>
+</body>
 </html>

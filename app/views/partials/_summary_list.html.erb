@@ -1,0 +1,11 @@
+<% items ||= {} %>
+<dl>
+  <% items.each do |k, v| %>
+    <dt>
+      <%= k %>
+    </dt>
+    <dd>
+      <%= v %>
+    </dd>
+  <% end %>
+</dl>

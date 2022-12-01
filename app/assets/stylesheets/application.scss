@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+	font-family: monospace;
+	color: #333447;
+	line-height: 1.7;
+	font-size: 1.2rem;
+  }
+  h1 {
+	font-size: 2.5rem
+  }
+  h2 {
+	font-size: 1.8rem
+  }
+  p {
+	font-weight: 200;
+	line-height: 1.8
+  }
+  .container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto
+  }
+
