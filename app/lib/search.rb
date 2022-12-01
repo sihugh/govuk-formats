@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require 'json'
-require 'net/http'
+require "json"
+require "net/http"
 
 class Search
-  BASE_SEARCH_URL = 'https://www.gov.uk/api/search.json?'
+  BASE_SEARCH_URL = "https://www.gov.uk/api/search.json?"
 
   def self.query(params)
     url = BASE_SEARCH_URL + params.to_query

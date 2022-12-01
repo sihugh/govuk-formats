@@ -2,29 +2,29 @@
 
 class OrganisationsController < ApplicationController
   def index
-    render 'index', locals: { results: organisations_results }
+    render "index", locals: { results: organisations_results }
   end
 
   def show
     render_not_found if organisation_results.empty?
 
-    render 'show', locals: { result: organisation_result, organisation_info: organisation_info }
+    render "show", locals: { result: organisation_result, organisation_info: }
   end
 
-  private
+private
 
   def organisation_result
     @organisation_result ||= begin
       r = organisation_results.first
       {
         href: "https://www.gov.uk#{r['link']}",
-        name: r['title']
+        name: r["title"],
       }
     end
   end
 
   def organisation_results
-    raw_organisation_results['results']
+    raw_organisation_results["results"]
   end
 
   def raw_organisation_results
@@ -32,21 +32,21 @@ class OrganisationsController < ApplicationController
   end
 
   def organisation_info
-    r = raw_organisation_results['results'].first
-    org = r['organisations'].first
+    r = raw_organisation_results["results"].first
+    org = r["organisations"].first
     {
-      "Acronym": org['acronym'],
-      "Description": r['description'],
-      "Type": org['organisation_type'].humanize
+      "Acronym": org["acronym"],
+      "Description": r["description"],
+      "Type": org["organisation_type"].humanize,
     }
   end
 
   def organisations_results
     r = Search.query(organisations_search_query)
-    r['facets']['organisations']['options'].map do |option|
+    r["facets"]["organisations"]["options"].map do |option|
       {
-        slug: option['value']['slug'],
-        name: option['value']['title']
+        slug: option["value"]["slug"],
+        name: option["value"]["title"],
       }
     end
   end
@@ -54,13 +54,13 @@ class OrganisationsController < ApplicationController
   def organisations_search_query
     {
       count: 0,
-      facet_organisations: 150
+      facet_organisations: 150,
     }
   end
 
   def organisation_search_query(slug)
     {
-      filter_slug: slug
+      filter_slug: slug,
     }
   end
 
