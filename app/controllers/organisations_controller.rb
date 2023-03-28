@@ -8,7 +8,7 @@ class OrganisationsController < ApplicationController
   def show
     render_not_found if organisation_results.empty?
 
-    render "show", locals: { result: organisation_result, organisation_info: }
+    render "show", locals: { result: organisation_result, organisation_info: organisation_info }
   end
 
 private
